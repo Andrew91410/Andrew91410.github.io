@@ -1,0 +1,230 @@
+/* Здесь будут храниться стили нашего сайта */
+
+body {
+	margin: 0;
+	font-family: 'Roboto';
+}
+  
+
+
+header {
+	padding-top: 54px;
+	background-color: #3a7dfd;
+	color: #ffffff;
+	padding-bottom: 17px;
+}
+
+.title {
+	font-size: 18px;
+	margin-top: 107px;
+}
+
+.header-title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 46.81px;
+	margin-top: 21px;
+}
+
+.HTMLandCSS {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+.button {
+
+box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+border-radius: 50px;
+background-color: #ffffff;
+color: #072b6f;
+font-size: 18px;
+font-weight: 700;
+padding-top: 18px;
+padding-left: 56px;
+padding-right: 58px;
+padding-bottom: 20px;
+margin-top: 32px;
+}
+
+header small {
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	margin-top: 9px;
+}
+
+.header-button-block{
+    max-width: 210px;
+}
+
+.port {
+	background-color: #dddddd;
+	padding-top: 42px;
+    padding-left: 159px;
+    padding-right: 160px;
+    padding-bottom: 69px;
+}
+.port-blog {
+background-color: #ffffff;
+padding-top: 30px;
+padding-bottom: 42px;
+
+}
+
+.port-title, .port-subtitle {
+text-align: center;
+}
+
+.port-title {
+	font-size: 18px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #072b6f;
+	
+}
+
+.port-subtitle {
+	margin-top: 10px;
+    font-size: 14px;
+    color: #7bb9ff;
+    margin-bottom: 29px;
+}
+
+#Gas {
+   padding-left: 51px;
+   padding-right: 28px;
+   width: 459px;
+   height: 202px;
+}
+
+#Mir {
+   padding-right: 50px;
+   padding-left: 28px;
+    width: 459px;
+   height: 202px; 
+}
+
+.port-blog h3 {
+color: #072b6f;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.text  {
+color: #8f8f8f;
+font-size: 14px;
+font-weight: 400;
+}
+
+.port-blog a {
+color: #072b6f;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
+}
+
+/*оформление подвала*/
+footer {
+	background-color: #3a7dfd;
+	color: #ffffff;
+	padding-top: 61px;
+	padding-bottom: 110px;
+}
+
+footer h4 {
+	font-size: 24px;
+	margin-bottom: 7px;
+}
+
+.p {
+font-size: 18px;
+margin-bottom: 0;
+}
+
+.p-2 {
+margin-bottom: 12px;
+}
+
+.soc {
+	text-align: center;
+}
+
+.soc a {
+	display: inline-block;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+footer button {
+		display: inline-block;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 18px;
+border-radius: 50px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+@media (max-width: 1200px) {
+	.title {
+	font-size: 18px;
+	margin-top: 60px;
+}
+}
+
+@media (max-width: 992px) {
+	.I {
+		display: none;
+	}
+
+	.title {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+footer h4 {
+	font-size: 18px;
+}
+
+.P {
+	font-size: 14px;
+}
+
+.soc a {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.soc img {
+width: 30px;
+}
+
+.f-b{
+	font-size: 14px;
+	padding: 8px 35px;
+}
+}
+
+@media (max-width: 768px) {
+	.portfolio-col-1 {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 40px;
+	}
+
+	.portfolio-col-2 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	footer h4, .P {
+	text-align: center;
+}
+
+
+}

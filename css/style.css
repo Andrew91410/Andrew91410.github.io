@@ -46,6 +46,13 @@ padding-left: 56px;
 padding-right: 58px;
 padding-bottom: 20px;
 margin-top: 32px;
+-webkit-transition: 0.2s;
+-o-transition: o.2s;
+transform: o.2s;
+}
+
+.button:hover {
+	box-shadow: none;
 }
 
 header small {
@@ -179,7 +186,7 @@ padding-right: 40px;
 }
 
 @media (max-width: 992px) {
-	.I {
+	#I {
 		display: none;
 	}
 
@@ -209,6 +216,12 @@ width: 30px;
 	font-size: 14px;
 	padding: 8px 35px;
 }
+}
+
+.f-b:hover {
+	background-color: #ffffff;
+	color: #3a7dfd;
+	transition: 0.2s;
 }
 
 @media (max-width: 768px) {

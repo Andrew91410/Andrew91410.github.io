@@ -17,6 +17,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
 		<!-- Шрифты от Google   -->
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
 </head>
@@ -26,15 +27,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
-				<img class="I" src="img/man-img.png" alt="Монитор">
+				<img id="I" class="wow fadeInLeftBig" src="img/man-img.png" alt="Монитор">
 			</div>
 			<!-- /.col-7 -->
 			<div class="col-lg-5">
-				<p class="title">Веб-разработчик</p>
-				<h1 class="header-title">Куценко Андрей</h1>
-				<p class="HTMLandCSS">Верстка на HTML/CSS <br>
+				<p class="title wow fadeInRightBig">Веб-разработчик</p>
+				<h1 class="header-title wow fadeInRightBig">Куценко Андрей</h1>
+				<p class="HTMLandCSS wow fadeInRightBig">Верстка на HTML/CSS <br>
                  Разработка сайтов под ключ</p>
-                 <div class="header-button-block">
+                 <div class="header-button-block wow fadeInRightBig">
                  	<a class="button" href="https://vk.com/id305532556">Связаться</a>
                  <small>*Это бесплатно</small>
                  </div>
@@ -46,7 +47,7 @@
 	<!-- /.contaner -->
 </header>
 
-<section class="port"> 
+<section class="port wow fadeIn"> 
 	<div class="container">
 		<div class="port-blog">
 		<h2 class="port-title">Портфолио</h2>
@@ -71,7 +72,7 @@
 </section>
 
 <footer>
-	<div class="container">
+	<div class="container wow bounceInUp">
 		<div class="row">
 			<div class="col-md-4">
 				<h4>Куценко Андрей</h4>
@@ -95,5 +96,9 @@
 	</div>
 </footer>
 
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
 </body>
 </html>
